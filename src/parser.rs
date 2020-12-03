@@ -17,7 +17,7 @@ use nom::{
 // $LET  := let $VAR : $TYPE = $EXPR { $EXPR }
 // $IF   := if $EXPR { $EXPR } else { $EXPR }
 // $SPLIT := split $EXPR as $VAR, $VAR { $EXPR }
-// $FREE := free $EXPR
+// $FREE := free x; $EXPR
 // $APP  := ( $EXPR $EXPR )
 //
 // $QUAL := lin | un
@@ -134,7 +134,7 @@ pub struct FnExpr {
 }
 
 // free文
-// $FREE := free $EXPR
+// $FREE := free x; $EXPR
 //
 // free var; expr
 #[derive(Debug)]

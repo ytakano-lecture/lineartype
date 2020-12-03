@@ -12,7 +12,7 @@
  $LET  := let $VAR : $TYPE = $EXPR { $EXPR }
  $IF   := if $EXPR { $EXPR } else { $EXPR }
  $SPLIT := split $EXPR as $VAR, $VAR { $EXPR }
- $FREE := free $EXPR
+ $FREE := free x; $EXPR
  $APP  := ( $EXPR $EXPR )
 
  $QUAL := lin | un
