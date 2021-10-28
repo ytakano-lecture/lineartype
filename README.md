@@ -10,5 +10,5 @@ $ cargo run examples/ex8.lin
 
 ## サンプルファイル
 
-examples/ex*.linが、型付けに成功すべきファイルで、
-examples/err*.linが、型付けに失敗すべきファイルとなる。
+codes/ex*.linが、型付けに成功すべきファイルで、
+codes/err*.linが、型付けに失敗すべきファイルとなる。
